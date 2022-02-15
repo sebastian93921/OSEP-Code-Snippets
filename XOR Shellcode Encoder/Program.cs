@@ -76,8 +76,8 @@ namespace XorCoder
                 }
             }
 
-            Console.WriteLine($"XOR payload (key: 0xfa):");
-            Console.WriteLine($"byte[] buf = new byte[{buf.Length}] {{\n{hex}\n}};");
+            System.Diagnostics.Debug.WriteLine($"XOR payload (key: 0xfa):");
+            System.Diagnostics.Debug.WriteLine($"byte[] buf = new byte[{buf.Length}] {{\n{hex}\n}};");
 
             //// Decode the XOR payload
             //for (int i = 0; i < buf.Length; i++)
