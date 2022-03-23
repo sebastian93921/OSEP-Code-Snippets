@@ -25,4 +25,5 @@ $assem = [System.Reflection.Assembly]::Load($data)
 |Shellcode Process Injector (C# & PS1) | Simple shellcode runner that applies process injection. Accepts an argument for the process to inject into. If no argument is given, it attempts to pick a suitable process based on privilege level. Also provided as native PowerShell script (though it is a bit simpler).|
 |Simple Shellcode Runner (C# & PS1 & VBA)|The simplest of shellcode runners. Also provided as native PowerShell and VBA scripts.|
 |XOR Shellcode Encoder (C#)|A simple binary to apply state-of-the-art XOR encoding to obfuscate the shellcode.|
+|Nt Shellcode Process Injector (C#)|Shellcode runner that applies process injection with NT Map Injection|
 
