@@ -5,7 +5,7 @@ using System.Security.Principal;
 
 namespace rev
 {
-    class Program
+    public class Program
     {
         [DllImport("kernel32.dll", SetLastError = true, ExactSpelling = true)]
         static extern IntPtr OpenProcess(uint processAccess, bool bInheritHandle, int processId);
